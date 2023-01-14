@@ -71,3 +71,11 @@ Nest is an MIT-licensed open source project. It can grow thanks to the sponsors 
 ## License
 
 Nest is [MIT licensed](LICENSE).
+
+
+## Common commands
+
+### Generate new module, controller, and service
+    nest generate module user
+    nest generate controller user
+    nest generate service user
