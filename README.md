@@ -79,3 +79,6 @@ Nest is [MIT licensed](LICENSE).
     nest generate module user
     nest generate controller user
     nest generate service user
+## Automatically generate resource for a entity
+    nest generate resource Post
+  This can generate module, controller, service, and CRUD boilerplate

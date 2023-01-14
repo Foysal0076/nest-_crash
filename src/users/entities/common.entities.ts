@@ -8,3 +8,11 @@ export class NotFound {
   @ApiProperty()
   error: string
 }
+export class BadRequestResponse {
+  @ApiProperty()
+  statusCode: number
+  @ApiProperty()
+  message: string[]
+  @ApiProperty()
+  error: string
+}
